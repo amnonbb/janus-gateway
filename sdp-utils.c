@@ -19,7 +19,7 @@
 #include "utils.h"
 #include "debug.h"
 
-#define JANUS_BUFSIZE	16384
+#define JANUS_BUFSIZE	32768
 
 /* Preferred codecs when negotiating audio/video, and number of supported codecs */
 const char *janus_preferred_audio_codecs[] = {
